@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttons{
+    border: 1px solid blue;
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+.buttons:hover{
+    border: 1px solid red;
+}
+.buttons:active{
+    background-color:  #d9d6ff;
+}
+
+#clear{
+    background-color: firebrick;
+}
+#equals{
+    background-color: blue;
+}
+.number{
+    background-color: cadetblue;
+}
